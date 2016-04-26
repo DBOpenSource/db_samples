@@ -23,5 +23,8 @@ Dragonboard Samples repository.
 * [ Color Sensor    - Tcs3414cs] (../master/Linaro/sample-tcs3414cs/README.md)
 * [ Light Sensor    - TSL2561] (../master/Linaro/sample-TSL2561/README.md)
 
-
+## Additional resources. 
+ *  The DB410c Linux distribution can support the MRAA kit , a low level skeleton library for various sensors.
+ *  The MRAA kit supports an even wide variety of sensors and also has bindings for Node.js, python and C/C++. 
+ *  Please refer to https://github.com/intel-iot-devkit/mraa for using this kit on the DB410c.
 
