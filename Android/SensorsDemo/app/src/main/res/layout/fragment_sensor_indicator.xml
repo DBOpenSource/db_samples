@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="?android:dividerHorizontal"
+    android:background="@color/backgroud_color" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:padding="0dp"
+        android:layout_margin="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                style="@style/pickImageButton"
+                android:src="@drawable/cube"
+                android:id="@+id/buttonCube"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                style="@style/pickImageButton"
+                android:src="@drawable/teapot"
+                android:id="@+id/buttonTeapot"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                style="@style/pickImageButton"
+                android:src="@drawable/monkey"
+                android:id="@+id/buttonMonkey"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.github.dbopensource.sensordemo.ColorComponent
+        android:id="@+id/colorComponent"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+    <com.github.dbopensource.sensordemo.LightComponent
+        android:id="@+id/lightComponent"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+
+    <com.github.dbopensource.sensordemo.JoystickComponent
+        android:id="@+id/joystickComponent"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <com.github.dbopensource.sensordemo.GestureComponent
+        android:id="@+id/gestureComponent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

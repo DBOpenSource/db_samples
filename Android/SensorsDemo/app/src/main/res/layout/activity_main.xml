@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+   <RelativeLayout
+       android:layout_width="200dp"
+       android:layout_height="match_parent">
+
+       <fragment android:name="com.github.dbopensource.sensordemo.SensorManagerFragment"
+            android:id="@+id/sensor_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+       <LinearLayout
+           android:id="@+id/settingsLayout"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/backgroud_color"
+           android:visibility="invisible">
+
+           <fragment android:name="com.github.dbopensource.sensordemo.SettingsFragment"
+               android:id="@+id/settings"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+                />
+       </LinearLayout>
+
+   </RelativeLayout>
+
+
+    <FrameLayout
+              android:id="@+id/content_frame"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+             android:layout_weight="1" />
+
+
+</LinearLayout>

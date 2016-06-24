@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/lightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lightDivider"
+            style="@style/divider"/>
+
+        <TextView
+            android:id="@+id/lightSensor"
+            style="@style/sidebarText"
+            android:text="@string/light"
+            android:layout_below="@+id/joystickDivider"/>
+
+        <TextView
+            android:id="@+id/textViewLight"
+            android:layout_width="198px"
+            android:layout_height="100px"
+            android:layout_below="@id/lightSensor"
+            android:layout_centerInParent="true"
+            android:text="0"
+            android:gravity="bottom|center"
+            android:background="@drawable/brightness0"/>
+
+        <com.github.dbopensource.sensordemo.DemoSeekBar
+            android:id="@+id/seekBarLight"
+            style="@style/seekBarLight"
+            android:thumbTint="@android:color/holo_orange_light"
+            android:progressTint="@android:color/holo_orange_light"
+            android:layout_below="@id/textViewLight"/>
+
+    </RelativeLayout>
+
+</merge>
