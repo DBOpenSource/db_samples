@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/colorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/colorDivider"
+            style="@style/divider"/>
+
+        <TextView
+            android:id="@+id/colorSensor"
+            style="@style/sidebarText"
+            android:text="@string/color"
+            android:layout_below="@+id/colorDivider"/>
+
+        <LinearLayout
+            android:id="@+id/colorRLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colorSensor"
+            android:orientation="horizontal">
+
+            <com.github.dbopensource.sensordemo.DemoSeekBar
+                android:id="@+id/seekBarR"
+                style="@style/seekBarColor"
+                android:thumbTint="@android:color/holo_red_light"
+                android:progressTint="@android:color/holo_red_light"
+                android:progress="255"
+                />
+
+            <TextView
+                android:id="@+id/textViewR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="255" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorGLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colorRLayout"
+            android:orientation="horizontal">
+
+            <com.github.dbopensource.sensordemo.DemoSeekBar
+                android:id="@+id/seekBarG"
+                style="@style/seekBarColor"
+                android:thumbTint="@android:color/holo_green_light"
+                android:progressTint="@android:color/holo_green_light"
+                />
+
+            <TextView
+                android:id="@+id/textViewG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorBLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colorGLayout"
+            android:orientation="horizontal">
+
+            <com.github.dbopensource.sensordemo.DemoSeekBar
+                android:id="@+id/seekBarB"
+                style="@style/seekBarColor"
+                android:thumbTint="@android:color/holo_blue_light"
+                android:progressTint="@android:color/holo_blue_light"
+                />
+
+            <TextView
+                android:id="@+id/textViewB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</merge>

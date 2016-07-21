@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/joystickLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/joystickDivider"
+            style="@style/divider"/>
+
+        <TextView
+            android:id="@+id/joystick"
+            style="@style/sidebarText"
+            android:text="@string/joystick"
+            android:layout_below="@+id/joystickDivider"/>
+
+        <LinearLayout
+            android:id="@+id/joystickButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/joystick"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="48px"
+                android:layout_height="48px"
+                style="@style/joystickButton"
+                android:src="@drawable/lamp2"
+                android:id="@+id/buttonKeyUp"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="48px"
+                    android:layout_height="48px"
+                    style="@style/joystickButton"
+                    android:src="@drawable/lamp3"
+                    android:id="@+id/buttonKeyLeft"/>
+                <ImageButton
+                    android:id="@+id/buttonCenter"
+                    android:layout_width="34px"
+                    android:layout_height="35px"
+                    android:src="@drawable/cube4"
+                    android:clickable="false"
+                    style="@style/joystickButton"
+                    android:layout_marginLeft="6px"
+                    android:layout_marginRight="6px"/>
+                <ImageButton
+                    android:layout_width="48px"
+                    android:layout_height="48px"
+                    style="@style/joystickButton"
+                    android:src="@drawable/lamp1"
+                    android:id="@+id/buttonKeyRight"/>
+            </LinearLayout>
+
+
+            <ImageButton
+                android:layout_width="48px"
+                android:layout_height="48px"
+                style="@style/joystickButton"
+                android:src="@drawable/lamp4"
+                android:id="@+id/buttonKeyDown"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</merge>

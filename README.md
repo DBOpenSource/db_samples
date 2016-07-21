@@ -11,6 +11,8 @@ Dragonboard Samples repository.
  
  Collection of Sample code  for the Android platform.
 
+
+* [ SensorsDemo ] (../master/Android/SensorsDemo/README.md)
 * [ Accelerometer   - ADXL345] (../master/Android/sample-ADXL345/README.md)
 * [ Gesture Sensor  - PAJ7620] (../master/Android/sample-paj7620/README.md)
 * [ Color Sensor    - Tcs3414cs] (../master/Android/sample-tcs3414cs/README.md)
@@ -28,3 +30,5 @@ Dragonboard Samples repository.
  *  The MRAA kit supports an even wide variety of sensors and also has bindings for Node.js, python and C/C++. 
  *  Please refer to https://github.com/intel-iot-devkit/mraa for using this kit on the DB410c.
 
+## Contributors 
+ * [Sujai SyrilRaj](https://github.com/Sujai) (project maintainer)

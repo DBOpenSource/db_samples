@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/gestureLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/gestureDivider"
+            style="@style/divider"/>
+
+        <TextView
+            android:id="@+id/gestureSensor"
+            style="@style/sidebarText"
+            android:text="@string/gesture"
+            android:layout_below="@id/gestureDivider"/>
+
+
+        <ImageView
+            android:layout_width="140px"
+            android:layout_height="130px"
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/gestureSensor"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- For test only -->
+        <LinearLayout
+            android:id="@+id/gestureButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gestureSensor"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="0dp"
+                >
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/up"
+                    android:id="@+id/buttonUp"/>
+
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/down"
+                    android:id="@+id/buttonDown" />
+
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/left"
+                    android:id="@+id/buttonLeft"/>
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/right"
+                    android:id="@+id/buttonRight"/>
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/move"
+                    android:id="@+id/buttonMove"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="0dp">
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/clockwise"
+                    android:id="@+id/buttonClockwise" />
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/counterclockwise"
+                    android:id="@+id/buttonCounterClockwise" />
+
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/up_down"
+                    android:id="@+id/buttonUpDown"/>
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/down_up"
+                    android:id="@+id/buttonDownUp"/>
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/right_left"
+                    android:id="@+id/buttonRightLeft"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="0dp">
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/left_right"
+                    android:id="@+id/buttonLeftRight" />
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/forward"
+                    android:id="@+id/buttonForward" />
+
+                <ImageButton
+                    style="@style/gestureButton"
+                    android:src="@drawable/backward"
+                    android:id="@+id/buttonBackward"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <!-- End of test -->
+
+    </RelativeLayout>
+</merge>

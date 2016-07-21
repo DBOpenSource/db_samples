@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Base -->
+    <string name="app_name">DB Workshop</string>
+    <string name="empty"></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="placeholder">Placeholder</string>
+
+    <string name="light">BRIGHTNESS</string>
+    <string name="color">COLOR</string>
+    <string name="joystick">JOYSTICK</string>
+    <string name="gesture">GESTURE</string>
+
+    <!-- Settings -->
+
+    <string name="color_setting">Color</string>
+    <string name="key_color_show">key_color_show</string>
+    <string name="key_color_auto">key_color_auto</string>
+
+    <string name="light_setting">Brightness</string>
+    <string name="key_light_show">key_light_show</string>
+    <string name="key_light_auto">key_light_auto</string>
+
+    <string name="joystick_setting">Joystick</string>
+    <string name="key_joystick_show">key_joystick_show</string>
+    <string name="key_joystick_auto">key_joystick_auto</string>
+
+    <string name="gesture_setting">Gesture</string>
+    <string name="key_gesture_show">key_gesture_show</string>
+    <string name="key_gesture_auto">key_gesture_auto</string>
+
+    <string name="show">Show</string>
+    <string name="auto">Auto</string>
+
+    <string name="default_setting">Default</string>
+    <string name="key_brightness_offset">key_brightness_offset</string>
+    <string name="brightness_offset">Brightness Offset</string>
+</resources>

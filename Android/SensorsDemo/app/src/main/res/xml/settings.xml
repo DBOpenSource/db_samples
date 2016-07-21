@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="@string/color_setting">
+        <CheckBoxPreference
+            android:key="@string/key_color_show"
+            android:defaultValue="true"
+            android:summary="@string/show"
+            />
+        <CheckBoxPreference
+            android:key="@string/key_color_auto"
+            android:defaultValue="true"
+            android:summary="@string/auto"
+            android:dependency="@string/key_color_show"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/light_setting">
+        <CheckBoxPreference
+            android:key="@string/key_light_show"
+            android:defaultValue="true"
+            android:summary="@string/show"
+            />
+        <CheckBoxPreference
+            android:key="@string/key_light_auto"
+            android:defaultValue="true"
+            android:summary="@string/auto"
+            android:dependency="@string/key_light_show"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/joystick_setting">
+        <CheckBoxPreference
+            android:key="@string/key_joystick_show"
+            android:defaultValue="false"
+            android:summary="@string/show"
+            />
+        <CheckBoxPreference
+            android:key="@string/key_joystick_auto"
+            android:defaultValue="true"
+            android:summary="@string/auto"
+            android:dependency="@string/key_joystick_show"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/gesture_setting">
+        <CheckBoxPreference
+            android:key="@string/key_gesture_show"
+            android:defaultValue="true"
+            android:summary="@string/show"
+            />
+        <CheckBoxPreference
+            android:key="@string/key_gesture_auto"
+            android:defaultValue="true"
+            android:summary="@string/auto"
+            android:dependency="@string/key_gesture_show"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/default_setting">
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_brightness_offset"
+            android:summary="@string/brightness_offset"
+            android:defaultValue="0"
+             />
+
+    </PreferenceCategory>
+</PreferenceScreen>
