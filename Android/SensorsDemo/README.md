@@ -1,7 +1,7 @@
 SensorsDemo.
 =======================
 
- A sample GUI application and uses the Gesture, Light and Color sensor inputs to modify images on the Appl
+ A sample GUI application uses the Gesture, Light and Color sensor inputs to modify images on the Application.
 
 ## To build: 
  - Download a recent Android NDK build ( http://developer.android.com/ndk/downloads/index.html) 
