@@ -12,18 +12,18 @@ Dragonboard Samples repository.
  Collection of Sample code  for the Android platform.
 
 
-* [ SensorsDemo ] (../master/Android/SensorsDemo/README.md)
-* [ Accelerometer   - ADXL345] (../master/Android/sample-ADXL345/README.md)
-* [ Gesture Sensor  - PAJ7620] (../master/Android/sample-paj7620/README.md)
-* [ Color Sensor    - Tcs3414cs] (../master/Android/sample-tcs3414cs/README.md)
-* [ Light Sensor    - TSL2561] (../master/Android/sample-TSL2561/README.md)
+* [ SensorsDemo ](../master/Android/SensorsDemo/README.md)
+* [ Accelerometer   - ADXL345](../master/Android/sample-ADXL345/README.md)
+* [ Gesture Sensor  - PAJ7620](../master/Android/sample-paj7620/README.md)
+* [ Color Sensor    - Tcs3414cs](../master/Android/sample-tcs3414cs/README.md)
+* [ Light Sensor    - TSL2561](../master/Android/sample-TSL2561/README.md)
 
 ## Linux
 
-* [ Accelerometer   - ADXL345] (../master/Linaro/sample-ADXL345/README.md)
-* [ Gesture Sensor  - PAJ7620] (../master/Linaro/Sample-PAJ7620/README.md)
-* [ Color Sensor    - Tcs3414cs] (../master/Linaro/sample-tcs3414cs/README.md)
-* [ Light Sensor    - TSL2561] (../master/Linaro/sample-TSL2561/README.md)
+* [ Accelerometer   - ADXL345](../master/Linaro/sample-ADXL345/README.md)
+* [ Gesture Sensor  - PAJ7620](../master/Linaro/Sample-PAJ7620/README.md)
+* [ Color Sensor    - Tcs3414cs](../master/Linaro/sample-tcs3414cs/README.md)
+* [ Light Sensor    - TSL2561](../master/Linaro/sample-TSL2561/README.md)
 
 ## Additional resources. 
  *  The DB410c Linux distribution can support the MRAA kit , a low level skeleton library for various sensors.
