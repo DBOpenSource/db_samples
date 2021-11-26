@@ -58,7 +58,7 @@
 #include <sys/ioctl.h>
 
 /* ---- Local headers ------------------------------------------------------- */
-#include "Paj7620.h"
+#include "PAJ7620.h"
 #include "common/i2c-dev.h"
 #include "common/header.h"
 
